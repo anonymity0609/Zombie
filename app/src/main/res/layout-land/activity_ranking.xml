@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <TabHost
+        android:id="@+id/tabHost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                android:id="@+id/content1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="순위"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="60sp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="프로필"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="300sp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="유저 닉네임"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="150sp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="최고 점수"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical">
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="80sp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="순위"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="60sp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="프로필"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="300sp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="유저 닉네임"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="150sp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="최고 점수"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recycler_view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="vertical">
+                    </android.support.v7.widget.RecyclerView>
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</RelativeLayout>

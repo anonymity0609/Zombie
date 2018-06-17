@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/gameStartGtn"
+            style="@style/button_style"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:text="Game START" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/RankingBtn"
+                style="@style/button_style"
+                android:layout_width="145sp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10sp"
+                android:text="Ranking" />
+
+            <Button
+                android:id="@+id/friendBtn"
+                style="@style/button_style"
+                android:layout_width="145sp"
+                android:layout_height="wrap_content"
+                android:text="Friend" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/LogoutBtn"
+                style="@style/button_style"
+                android:layout_width="145sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="10sp"
+                android:text="Logout" />
+
+            <Button
+                android:id="@+id/refreshData"
+                style="@style/button_style"
+                android:layout_width="145sp"
+                android:layout_height="wrap_content"
+                android:text="refresh" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/QuitGameBtn"
+            style="@style/button_style"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15sp"
+            android:text="Quit Game" />
+    </LinearLayout>
+
+</LinearLayout>

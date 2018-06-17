@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/SoloGame"
+        android:title="Solo Game" />
+    <item
+        android:id="@+id/DuelGame"
+        android:title="Duel Game"/>
+</menu>

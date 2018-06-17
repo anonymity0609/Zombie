@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FirstMenu</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+
+    <string name="kakao_app_key">55f29fdef7be3f8db187d5b537cb492a</string>
+
+    <string name="background_color">#000000</string>
+    <string name="textColor">#ffffff</string>
+</resources>
