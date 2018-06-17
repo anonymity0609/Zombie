@@ -193,10 +193,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goToStage() {
-//        Intent intent = new Intent(MainActivity.this, UnityPlayerActivity.class);
-//        intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-//        overridePendingTransition(R.anim.anim_slide_in_left, R.anim.anim_slide_out_right);
-//        startActivity(intent);
+        Intent intent = new Intent(MainActivity.this, UnityPlayerActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+        overridePendingTransition(R.anim.anim_slide_in_left, R.anim.anim_slide_out_right);
+        startActivity(intent);
     }
 
     private void checkRanking() {
